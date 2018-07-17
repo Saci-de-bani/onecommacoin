@@ -83,7 +83,6 @@ script:
   fi
 - if [ "$RUN_TESTS" = "true" ]; then qa/pull-tester/rpc-tests.py --coverage; fi
 after_script:
-- echo "Showing directory tree" && ls -laR
 - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then (echo "Upload goes here. Something like: scp
     -r $BASE_OUTDIR server" || echo "upload failed"); fi
 - echo $TRAVIS_COMMIT_RANGE
@@ -105,4 +104,6 @@ deploy:
   file: onecommacoin-1.0.0.0-*
   on:
     repo: Saci-de-bani/onecommacoin
-    branch: master
+    branches:    
+      only:    
+        - master
