@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/onecommacoin_bg.qm</file>
+        <file alias="de">locale/onecommacoin_de.qm</file>
+        <file alias="en">locale/onecommacoin_en.qm</file>
+        <file alias="es">locale/onecommacoin_es.qm</file>
+        <file alias="fi">locale/onecommacoin_fi.qm</file>
+        <file alias="fr">locale/onecommacoin_fr.qm</file>
+        <file alias="it">locale/onecommacoin_it.qm</file>
+        <file alias="ja">locale/onecommacoin_ja.qm</file>
+        <file alias="pl">locale/onecommacoin_pl.qm</file>
+        <file alias="pt">locale/onecommacoin_pt.qm</file>
+        <file alias="ru">locale/onecommacoin_ru.qm</file>
+        <file alias="sk">locale/onecommacoin_sk.qm</file>
+        <file alias="sv">locale/onecommacoin_sv.qm</file>
+        <file alias="vi">locale/onecommacoin_vi.qm</file>
+        <file alias="zh_CN">locale/onecommacoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/onecommacoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
