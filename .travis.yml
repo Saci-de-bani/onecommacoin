@@ -97,7 +97,6 @@ before_deploy:
 - echo `pwd`
 - echo 'filecontents'
 - ls
-<<<<<<< HEAD
 deploy:
   provider: releases
   file_glob: true
@@ -107,6 +106,3 @@ deploy:
   on:
     repo: Saci-de-bani/onecommacoin
     branch: master
-=======
-
->>>>>>> 535f130a9f6182b47c8e613ed612e6669e908b0d
