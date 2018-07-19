@@ -154,9 +154,9 @@ public:
 
         vSeeds.push_back(CDNSSeedData("107.175.127.247", "107.175.127.247"));
         vSeeds.push_back(CDNSSeedData("107.175.127.248", "107.175.127.248"));
-        //vSeeds.push_back(CDNSSeedData("taurusnetwork-seed-3.dynu.net", "taurusnetwork-seed-3.dynu.net"));
-        //vSeeds.push_back(CDNSSeedData("taurusnetwork-seed-4.dynu.net", "taurusnetwork-seed-4.dynu.net"));
-        //vSeeds.push_back(CDNSSeedData("taurusnetwork-seed-5.dynu.net", "taurusnetwork-seed-5.dynu.net"));
+        vSeeds.push_back(CDNSSeedData("107.175.127.249", "107.175.127.249"));
+        vSeeds.push_back(CDNSSeedData("107.175.127.250", "107.175.127.250"));
+        vSeeds.push_back(CDNSSeedData("107.175.127.251", "107.175.127.251"));
         //vFixedSeeds.clear();
         //vSeeds.clear();
 
